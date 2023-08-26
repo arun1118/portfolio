@@ -1,0 +1,49 @@
+@import url('https://fonts.googleapis.com/css2?family=Finger+Paint&display=swap');
+
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 10%;
+    padding-right: 10%;
+    height: 100%;
+    background-color: black;
+}
+nav *{
+    background-color: black;
+}
+
+.logo{
+    font-size: 30px;
+}
+.logo a{
+    font-family: 'Finger Paint', cursive;
+    color: white;
+    text-decoration: none;
+}
+.logo-lastname{
+    color: rgb(55, 228, 228);
+}
+
+nav ul li{
+    list-style-type: none;
+    display: inline-block;
+    padding: 10px 20px;
+}
+
+nav ul li a{
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 20px;
+}
+nav ul li  a:hover{
+    color: rgb(55, 228, 228);
+}
+
+nav ul li a.active{
+    color: rgb(55, 228, 228);
+    transition: .3s;
+}
