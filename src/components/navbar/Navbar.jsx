@@ -6,7 +6,7 @@ const Navbar = () => {
   return (
     <>
       <nav>
-        <h2 className='logo'> <NavLink to="/">Arunanda <span className='logo-lastname'>Panigrahi</span></NavLink></h2>
+        <h2 className='logo'> <NavLink to="/"> <span className='logo-tag'>&lt;</span> A <span className='logo-tag'>/&gt;</span> </NavLink></h2>
         <ul>
           <li> <NavLink to="/">Home</NavLink> </li>
           <li> <NavLink to="/about">About</NavLink> </li>

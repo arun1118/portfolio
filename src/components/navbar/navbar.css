@@ -16,15 +16,16 @@ nav *{
 }
 
 .logo{
-    font-size: 30px;
+    font-size: 50px;
 }
 .logo a{
     font-family: 'Finger Paint', cursive;
     color: white;
     text-decoration: none;
 }
-.logo-lastname{
+.logo-tag{
     color: rgb(55, 228, 228);
+    font-size: 60px;
 }
 
 nav ul li{

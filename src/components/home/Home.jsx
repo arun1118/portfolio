@@ -1,6 +1,6 @@
 import React from 'react'
 import "./home.css";
-import ProfilePic from "../../assets/batman.png";
+import ProfilePic from "../../assets/profile.png";
 import Linkedin from "../../assets/linkedin.png";
 import Github from "../../assets/github.png";
 
@@ -12,7 +12,7 @@ const Home = () => {
         </div>
         <div className="section__text">
           <p className="section__text__p1">Hello, I'm</p>
-          <h1 className="title">Arunanda Panigrahi</h1>
+          <h1 className="title">Arunanda <span className='marker'>Panigrahi</span></h1>
           <p className="section__text__p2">
             Web <span className='marker'>Developer</span> <span className='marker1'>|</span> Competitive <span className='marker'>Programmer</span>
           </p>

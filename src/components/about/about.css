@@ -1,0 +1,47 @@
+/* .about-container *{
+    border: 1px solid red;
+} */
+
+.about-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-top: 100px;
+}
+
+.about-pic-container{
+    margin: 50px 50px 50px 100px;
+}
+
+.about-pic{
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+}
+
+
+.about-details-container{
+    margin: 50px 100px 50px 50px;
+    width: 700px;
+    height: fit-content;
+}
+.about-details{
+    color: white;
+    text-align: justify;
+    padding: 30px;
+    font-size: 1.4rem;
+}
+
+
+.education-container{
+    color: rgb(195, 193, 193);
+    text-align: center;
+}
+
+.about-large{
+    font-size: 1.5rem;
+}
+.about-name{
+    font-family: 'Finger Paint', cursive;
+}
